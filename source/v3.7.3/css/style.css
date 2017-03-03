@@ -1,0 +1,287 @@
+html, body, header,
+nav, main, section, article, aside, footer, div,
+h1, h2, h3, h4, h5, h6,
+p, a, b, i, ul, li, img,
+span, svg, button, time,
+form, label, input, textarea,
+figure, figcaption {
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease-out;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Baloo Tamma", cursive;
+  color: #333333;
+}
+
+a, a:visited {
+  color: #8855b5;
+}
+
+main, header > div, footer > div {
+  margin: 0 7%;
+}
+
+header {
+  background: #f2f2f2;
+  box-shadow: 0px 4px 0 #e6e6e6;
+}
+
+header > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3% 0;
+}
+
+header div.logo h1 {
+  font-family: "Bungee", cursive;
+  font-size: 2rem;
+  color: #662d91;
+  margin: 0 0 -1rem 0;
+  line-height: 4rem;
+}
+
+header div.logo h1 sup {
+  font-family: "Baloo Tamma", cursive;
+  font-size: 1.4rem;
+}
+
+header div.logo h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #b3b3b3;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  font-size: 1.5rem;
+  color: #8855b5;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 2% 7%;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: auto;
+  min-width: 200.8px;
+}
+
+.controls a button {
+  width: 100%;
+}
+
+.controls .color-box input, .controls .color-box h3, .controls button {
+  font-size: 2rem;
+}
+
+.controls .color-box, .controls > button {
+  margin-bottom: 1rem;
+}
+
+.controls .color-box input {
+  font-family: "Baloo Tamma", cursive;
+  font-weight: normal;
+  background: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem 0rem 0.5rem 2rem;
+  width: 90%;
+}
+
+.controls .color-box h3 {
+  font-weight: normal;
+  text-align: center;
+}
+
+.controls button {
+  font-family: "Baloo Tamma", cursive;
+  border-radius: 5px;
+  border: none;
+  padding: 0.3rem 3rem;
+  box-shadow: 0px 3px 0 #b3b3b3;
+}
+
+.controls button:hover {
+  box-shadow: 0px 0px 0 #b3b3b3;
+}
+
+.controls #build {
+  background: #333333;
+  color: #f2f2f2;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 753.2px;
+  margin-left: 7rem;
+}
+
+.preview-window svg {
+  border-radius: 10px;
+  min-width: 753.2px;
+  min-height: 376.81px;
+  box-shadow: 0px 3px 0 #e6e6e6;
+}
+
+.preview .status {
+  background: #f2f2f2;
+  border-radius: 5px;
+  border-left: 10px solid #e6e6e6;
+  padding: 0.8rem 2rem 0.4rem 0rem;
+  margin-top: 1.2%;
+  box-shadow: 0px 3px 0 #e6e6e6;
+}
+
+.preview .status p {
+  font-size: 1.8rem;
+  text-align: right;
+}
+
+.tutorial h2, .about h2 {
+  font-size: 2rem;
+  color: #662d91;
+  margin-top: 10px;
+}
+
+.tutorial p {
+  font-size: 1.8rem;
+  color: #333333;
+  margin: 10px auto 25px auto;
+  line-height: 1rem;
+}
+
+.tutorial {
+  width: 1024px;
+  align-self: center;
+  margin-top: 50px;
+}
+
+.tutorial nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+  max-width: 200.8px;
+}
+
+.tutorial nav img {
+  width: 39px;
+  height: 39px;
+  cursor: pointer;
+}
+
+.tutorial_slides {
+  margin-top: 20px;
+}
+
+.tutorial_slides img {
+  border-radius: 12px;
+  box-shadow: 0px 3px 0 #e6e6e6;
+}
+
+.about {
+  background: #f2f2f2;
+  align-self: center;
+  width: 1000px;
+  padding: 2rem;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 0 #e6e6e6;
+}
+
+.about p {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-top: 20px;
+  line-height: 2.2rem;
+  font-weight: lighter;
+}
+
+footer {
+  margin-top: 100px;
+  background: #f2f2f2;
+  box-shadow: 0px -4px 0 #e6e6e6;
+  padding: 1.5% 0;
+}
+
+footer > div {
+  font-size: 1.5rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer > div div p, footer div div a, footer div div a:active, footer div div a:visited {
+  color: #b3b3b3;
+}
+
+footer > div div img {
+  margin: 0 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+footer div div a {
+  text-decoration: underline;
+}
+
+footer div div a:hover {
+  color: #8855b5;
+}
+
+footer div a {
+  color: #8855b5;
+  text-decoration: none;
+}
+
+footer div a:hover {
+  text-decoration: underline;
+}
+
+.raw-page {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+header, header .logo h2, .color-box, #build, #raw,
+.preview-window, .status, .tutorial, .about, footer {
+  opacity: 0;
+}
