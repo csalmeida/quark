@@ -1,6 +1,6 @@
 # Quark
 
-*Now available for ProtonMail v3.7.3*
+*Now available for ProtonMail v3.5.16*
 
 A theme creator for [ProtonMail](https://protonmail.com/) that creates quickly themes without having to type any CSS.
 It creates a theme from four colors. You can select colors by using the color picker or by typing a hexadecimal value which will be applied when you click out of the color box.
